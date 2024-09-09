@@ -1,0 +1,20 @@
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: ansible12345.ansible1234545
+  description: ansible12345
+  tags:
+    - ansible
+    - collection
+  annotations:
+    backstage.io/techdocs-ref: dir:.
+    github.com/project-slug: test-rhaap-1/rhdh12
+  links:
+    - url: https://devspaces.apps.ansible-rhdh-dev.testing.ansible.com/#https://github.com/test-rhaap-1/rhdh12
+      title: Open Ansible project in OpenShift Dev Spaces
+      icon: web
+spec:
+  type: collection-project
+  lifecycle: production
+  owner: ganeshrn
